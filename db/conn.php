@@ -1,17 +1,17 @@
 <?php 
     // Development Connection
-     $host = '127.0.0.1';
-     $db = 'attendee_db';
-     $user = 'root';
-     $pass = '';
-     $charset = 'utf8mb4';
+     //$host = '127.0.0.1';
+     //$db = 'attendee_db';
+     //$user = 'root';
+     //$pass = '';
+     //$charset = 'utf8mb4';
 
     //Remote Database Connection
-    //$host = 'remotemysql.com';
-    //$db = 'yWkNfa16xd';
-    //$user = 'yWkNfa16xd';
-    //$pass = 'H5bigkTQSs';
-    //$charset = 'utf8mb4';
+    $host = 'remotemysql.com';
+    $db = 'hcpg3pyE7t';
+    $user = 'hcpg3pyE7t';
+    $pass = 'KXfIOlDdpu';
+    $charset = 'utf8mb4';
 
     $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
 
